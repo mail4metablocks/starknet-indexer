@@ -1,0 +1,11 @@
+[package]
+name = "starknet-indexer"
+version = "0.1.0"
+
+
+[dependencies]
+tokio = { version = "0.3", features = ["full"] }
+
+[dependencies.starkware-indexer]
+version = "0.1.0"
+features = ["db-postgres"]
